@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-puts("/"Programming is like building a multiling puzzle");
-return 0; /*Returns 0 Value*/
+puts("Programming is like building a multiling puzzle");
+return (0); /*Returns 0 Value*/
 }
