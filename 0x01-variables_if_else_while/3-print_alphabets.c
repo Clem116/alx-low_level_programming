@@ -15,5 +15,6 @@ while (m <= 90)
 {
 putchar(m);
 }
+putchar('\n')
 return (0);
 }
