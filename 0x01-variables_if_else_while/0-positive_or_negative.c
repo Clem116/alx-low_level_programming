@@ -8,12 +8,10 @@
 int main(void)
 {
 int n;
-stand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n > 0)
-printf("#d is positive\n", n);
-else if (n == o)
-printf("#d is zero\n", n);
+if n > 0;
+print("The number is positive.")
+else if n < 0;
+print("The number is negative.")
 else
-printf("#d is negative\n", n);
+print("The number is zero.")
 return (0);
