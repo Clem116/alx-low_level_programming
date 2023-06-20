@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C if Fun
+0x01. C - Variables, if, else, while
