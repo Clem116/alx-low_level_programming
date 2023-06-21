@@ -1,23 +1,26 @@
 #include "main.h"
  /**
  * main - Entry point
- * Description: Prints the alphabet in lowercase
+ * print_alphabet_x10 - prints 10 x alphabet in lowercase followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-print_alphabet();
-return (0);
-}
-/**
- * print_alphabet - Prints the alphabet in lowercase
- */
-void print_alphabet(void)
-{
+char ch;
 int i;
-for (i = 97; i <= 122; i++)
+i = 0;
+while (i < 10)
 {
-_putchar(i);
+ch = 'a';
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++
+{
+_putchar(ch);
+ch++
 }
-_putchar('\n');
+_puthar('\n');
+i++
+}
 }
