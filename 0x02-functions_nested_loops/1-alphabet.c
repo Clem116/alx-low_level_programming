@@ -15,12 +15,12 @@ ch = 'a';
 while (ch <= 'z')
 {
 _putchar(ch);
-ch++
+ch++;
 {
 _putchar(ch);
-ch++
+ch++;
 }
 _puthar('\n');
-i++
+i++;
 }
 }
