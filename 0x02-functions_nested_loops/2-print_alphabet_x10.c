@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: 'prints the alphabet in lowercase'
+ * Description: 'prints the alphabets 10 times'
  * Return: always (0) Success
  */
-int 2-print_alphabet_x10.c(void)
+void 2-print_alphabet_x10(void)
 int i;
-int j
+int j;
 for (j = 1; i <= 10; i++)
 {
 for (j = 97; j <= 122; j++)
