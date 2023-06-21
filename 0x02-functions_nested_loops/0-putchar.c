@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - print_putchar
  * Description: 'prints _putchar to stdout'
  * Return: always 0
  */
@@ -14,4 +14,5 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
+return (0);
 }
