@@ -24,4 +24,3 @@ _putchar('\n');
 i++;
 }
 }/* Terminates program */
-:
