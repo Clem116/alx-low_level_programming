@@ -20,7 +20,8 @@ ch++;
 _putchar(ch);
 ch++;
 }
-_puthar('\n');
+_putchar('\n');
 i++;
 }
-}
+}/* Terminates program */
+:
