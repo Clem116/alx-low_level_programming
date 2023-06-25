@@ -1,21 +1,25 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always (0) Success
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-int dig_1, dig_2;
-for (dig_1 = 0; dig_2 < 9; dig_1++)
+int n, m;
+for (n = 48; n <= 56; n++)
 {
-for (dig_2 = dig_1 + 1; dig_2 < 10; dig_2++)
+for (m = 49; m <= 57; m++)
 {
-putchar((dig_1 % 10) + '0');
-putchar((dig_2 % 10) + '0');
-if (dig_1 == 8 && dig_2 == 9)
-continue;
+if (m > n)
+{
+putchar(n);
+putchar(m);
+if (n != 56 || m != 57)
+{
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
