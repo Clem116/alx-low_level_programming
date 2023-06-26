@@ -1,14 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - updates pointer to parameter
- * Return: Always 0.
+ * reset_to_98 - a function that takes a pointer to an int as parameter n updates value - 98
+ * @n: input
+ * Return: n
  */
-int main(void)
+void reset_to_98(int *n)
 {
-int number = 0;
-printf("Before update: %d\n", number);
-updateValue(&number);
-printf("After update: %d\n", number);
-return 0;
+*n = 98;
 }
