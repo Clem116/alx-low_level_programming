@@ -7,7 +7,7 @@ int a[5];
 int *p;
 a[2] = 1024;
 p = &n;
-*(p + 5) = 98;
+*(p + 7) = 98;
 /**
 * write your line of code here...
 * Remember:
