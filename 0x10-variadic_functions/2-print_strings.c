@@ -11,18 +11,19 @@
  * If one of the string is NULL, print (nil) instead
  */
 void print_strings(const char *separator, const unsigned int n, ...)
-va_start strings;
+{
+va_list strings;
 char *str;
 unsigned int counter;
 va_start(strings, n);
 for (counter = 0; counter < n; counter++)
 {
-str - va_arg(strings, char*);
+str = va_arg(strings, char*);
 if (str == NULL)
 printf("(nil)");
 else
 printf("%s", separator);
 }
-print("\n");
+printf("\n");
 va_end(strings);
 }
