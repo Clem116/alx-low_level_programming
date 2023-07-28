@@ -17,4 +17,5 @@ struct list_s *next;
 } list_t;
 /* Function prototype for printing all eements of a list */
 size_t print_list(const list_t *h);
+size_t no_of_elements(const list_t *h);
 #endif

@@ -12,7 +12,15 @@ size_t node = 0;
 
 while (h != NULL)
 {
+if (h->str == NULL)
+{
+printf("new->str = NULL;\n");
+}
+else
+{
 printf("[%lu] %s\n", h->len, h->str);
+}
+
 h = h->next;
 node++;
 }
