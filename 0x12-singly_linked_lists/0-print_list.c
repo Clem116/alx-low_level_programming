@@ -14,7 +14,7 @@ while (h != NULL)
 {
 if (h->str == NULL)
 {
-printf("new->str = NULL;\n");
+printf("[0] (nil)\n");
 }
 else
 {
