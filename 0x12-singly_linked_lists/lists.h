@@ -9,11 +9,11 @@
  *
  * Description: structure to a linked list
  */
-typedef struct list_s
+typedef struct no_of_elements
 {
 char *str;
 size_t len;
-struct list_s *next;
+struct no_of_elements *next;
 } list_t;
 /* Function prototype for printing all eements of a list */
 size_t print_list(const list_t *h);
