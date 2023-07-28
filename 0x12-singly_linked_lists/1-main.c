@@ -26,7 +26,7 @@ int main(void)
     new->len = 5;
     new->next = head;
     head = new;
-    n = no_of_elements(head);
+    n = list_len(head);
     printf("-> %lu elements\n", n);
     free(new->str);
     free(new);
