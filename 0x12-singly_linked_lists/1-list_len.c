@@ -1,4 +1,5 @@
-#include <stddef.h>
+#include <stdlib.h>
+#include "lists.h"
 /* Definition of a list structure */
 typedef struct no_of_elements
 	{
