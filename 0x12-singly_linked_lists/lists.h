@@ -10,12 +10,11 @@
  * Description: structure to a linked list
  */
 typedef struct list_s
-	{	
-	char *str;
-	size_t len;
-	struct list_s *next;
-	} list_t;
+{
+char *str;
+size_t len;
+struct list_s *next;
+} list_t;
 /* Function prototype for printing all eements of a list */
 size_t print_list(const list_t *h);
-#endif 
-/* LIST_H */
+#endif
