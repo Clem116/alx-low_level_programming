@@ -2,7 +2,7 @@
 #include <string.h>
 #include "lists.h"
 /**
- * add_node_endAdds a new node to alinked list
+ * add_node_end - Adds a new node to alinked list
  * @head: double pointer to a linked list
  * @str: string for a new node
  *
