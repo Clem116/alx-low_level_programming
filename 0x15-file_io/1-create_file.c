@@ -5,7 +5,7 @@
  * @file_descriptor: points to string to be written
  * Return: Success if positive, and negative if it fails
  */
-int create_my_file(const char *new_file, char *file_descriptor)
+int create_file(const char *new_file, char *file_descriptor)
 {
 	int fd, c, len = 0;
 
