@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * create_my_file - generates a  new file
+ * create_file - generates a  new file
  * @new_file: Pointer to the created file
  * @file_descriptor: points to string to be written
  * Return: Success if positive, and negative if it fails
